@@ -7,11 +7,10 @@
 html {
     font-family: "Roboto", "PT sans", sans-serif;
     font-size: 16px;
-    margin: 0 auto;
 }
 
 body {
-    max-width: 1366px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -33,7 +32,7 @@ header {
     display: flex;
     height: 80px;
     background-color: #2a2a2a;
-    max-width: 1366px;
+    width: 100vw;
 }
 
 .top-nav {
@@ -276,6 +275,7 @@ footer {
     margin: 0 100px 0 auto;
     position: relative;
     bottom: 10px;
+    display: none;
 }
 .sprites-container ul:last-child {
     margin-right: -30px;
@@ -447,6 +447,7 @@ display: none;
     position: relative;
     top: 1.7rem;
     right: 7.4rem;
+    display: none;
 }
 .readme-wrapper {
     display: flex;

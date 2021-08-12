@@ -7,11 +7,10 @@
 html {
     font-family: "Roboto", "PT sans", sans-serif;
     font-size: 16px;
-    margin: 0 auto;
 }
 
 body {
-    max-width: 1366px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -79,7 +78,7 @@ header {
     display: flex;
     height: 80px;
     background-color: #2a2a2a;
-    max-width: 1366px;
+    width: 100vw;
 }
 
 .top-nav {
@@ -202,7 +201,7 @@ a.current {
       padding-top: 1px;
       display: flex;
       flex-flow: column wrap;
-      
+      margin: 0 auto;
   }
   .contacts-content {
       display: flex;
@@ -335,7 +334,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-   max-width: 1366px;
+    width: 100vw;
     height: 265px;
     background-color: #2a2a2a;
 }
@@ -402,6 +401,7 @@ footer {
     margin: 0 100px 0 auto;
     position: relative;
     bottom: 10px;
+    display: none;
 }
 .sprites-container ul:last-child {
     margin-right: -30px;
@@ -603,6 +603,7 @@ margin: 0 auto 0 auto;
 position: relative;
 top: 1.7rem;
 right: 7.4rem;
+display: none;
 }
 .readme-wrapper {
 display: flex;
