@@ -282,62 +282,58 @@ a.a-flats {
 
 /* Reviews section */  
 .reviews-wrapper {
-    margin-bottom: 29px;        
-}
-.reviews-wrapper .content {
     max-width: 1166px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto 29px auto;
 }
-.review {
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ .review {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 568px;
     background-color: #f4efed;
     color: rgb(42, 42, 42);
     font-size: 16px;
-    line-height: 1.375;
-    width: 549px;
-    height: 196px;
-    padding: 40px 0px 40px 40px;
-    margin-bottom: 30px;
-    padding-right: 0;
+    line-height: 1.375;  
+    margin-bottom: 30px; 
 }
-.review:nth-child(2) {
-    margin-right: -4.4rem;
+.text {
+    margin: 36px 40px 25px 40px;  
 }
-.review .text {
-    width: 439px;
-    height: 58px;  
-    margin-top: -4px;
-    margin-bottom: 30px;
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 40px; 
+    padding-bottom: 30px;
 }
-pre {
-    font-size: 16px;
-    font-family: "Roboto";
-    color: rgb(42, 42, 42);
-    line-height: 1.375;
+.info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
-.review p.author {
+.author-date {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.author {
     font-weight: bold;
-    font-size: 16px;
     line-height: 22px;
-    margin: 0 0 0 0;
-    padding-top: 2px;
-    padding-bottom: 4px;
+    margin: 2px 0 4px 0;
 }
-.review .date {
+.date {
     font-size: 14px;
     line-height: 1.429;
     color: rgb(42, 42, 42);
     margin: 0 0 4px 0;
 }
-.review img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-right: 14px;
-    margin-top: 2px;
-}
+
 .clearfix1 {
     clear: both;
 } 
@@ -356,7 +352,6 @@ pre {
     cursor: pointer;
     text-decoration: none;
     margin-left: 8px;
-   
 }
 .all-reviews:hover {
     background-color: black;
@@ -558,16 +553,13 @@ nav.top-nav {
     position: relative;
 }
 
-    .reviews-wrapper .content {
-        max-width: 1166px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .review:nth-child(2) {
-        margin-right: 0;
-    }
+.reviews {
+    display: grid;
+    grid-template-columns: 100vw;
+    justify-content: center;
+    justify-items: center;
+}
+   
 
 footer {
     display: flex;
