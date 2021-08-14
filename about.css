@@ -202,10 +202,12 @@ a.current {
       display: flex;
       flex-flow: column wrap;
       margin: 0 auto;
+      width: 100%;
   }
   .contacts-content {
       display: flex;
       flex-direction: row;
+      margin: 0 auto;
   }
   .contacts-wrapper h2 {
     padding-top: 38px;
@@ -217,6 +219,7 @@ a.current {
     background-color: #ffffff;
     margin-left: 100px;
     margin-bottom: 5px;
+    margin: 0 auto;
 }
   .first {    /* working schedule */
     font-size: 24px;
@@ -857,4 +860,73 @@ hr {
 /* hr, readme end
    Footer End
 */
+
+/* contacts section start */
+
+.contacts-wrapper {
+    background-color: #f5f5f5;
+    padding-bottom: 55px;
+    position: relative;
+    height: 100%;
+    padding-top: 1px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-wrapper h2 {
+  padding-top: 38px;
+  margin: 0 auto 42px auto;
+}
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 568px;
+  height: 100%;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+.first {    /* working schedule */
+  font-size: 24px;
+  color: rgb(42, 42, 42);
+  line-height: 0.917;
+  margin: 39px 0 0 40px;
+  padding-bottom: 0;
+}
+.contacts-list {    /* contact list */
+  margin: 22px 0 28px 40px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+}
+.contacts-list li {    
+  border-bottom: 1px solid #e8e8e8;
+  width: 479px;
+  color: rgb(42, 42, 42);
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 17px 0 20px 0; 
+}
+
+.soc-links {
+  margin-left: 40px;
+}
+.soc-links li {
+  float: left;
+  margin-right: 25px;
+}
+#map {
+  max-width: 568px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clearfix3 {
+  clear: both;
+}
+
+
 }
