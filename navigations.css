@@ -78,7 +78,7 @@ header {
 }  
 .top-nav li {
     list-style-type: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.333;
     align-self: center;
 }
@@ -114,12 +114,11 @@ header {
 }
 
 .phone-icon {
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 1rem;
+    height: 1rem;
     display: block;
     background-image: url(images/Icons/icon-phone-topnav.svg);
     background-repeat: no-repeat;
-   
 }
 
 .btn-top {
@@ -157,19 +156,41 @@ a.current {
 
 /* Footer section */
 /* Footer start */
+.bot-tel {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: 1.1rem;
+}
+
+footer .bot-tel ul li {    
+        font-size: 1rem;
+        line-height: 1.333;
+        align-self: center;
+}
+.bot-tel li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.bot-tel .item-77 {
+    margin-top: 0.1rem;
+}
+
 footer {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100vw;
-    height: 265px;
     background-color: #2a2a2a;
 }
 
 .bot-nav {
     margin: 0 auto;
     width: 100vw;
-    height: 80px;
+    height: 3.5rem;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -184,7 +205,7 @@ footer {
 
 .bot-nav li {
     list-style-type: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.333;
     align-self: center;
 }
@@ -225,10 +246,9 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between; 
     flex-direction: row;
-    margin: 0 100px 0 auto;
-    position: relative;
-    bottom: 10px;
-    
+    margin: 0 auto 0 auto;
+    position: relative;   
+    margin-bottom: 0.7rem;
 }
 .sprites-container ul:last-child {
     margin-right: -30px;
@@ -284,12 +304,12 @@ hr {
     opacity: 0.102;
     height: 1px;
     width: 1166px;
-    margin: 0 auto 0 auto;
-    margin-top: 41px;
+    margin: 0 auto 0.5rem auto;
+    
 }
 .readme-wrapper {
     display: flex;
-    margin: 28px auto 0 auto;
+    margin: 0 auto 1.2rem auto;
 }
 .readme {
     display: flex;
