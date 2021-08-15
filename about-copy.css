@@ -182,7 +182,7 @@ a.current {
     margin-bottom: 42px;
   }
 
-  /* Text are start */
+  /* Text area start */
   .contacts-info {
     max-width: 37.175rem;
     max-height: 24.5rem;
@@ -241,6 +241,7 @@ a.current {
  .clearfix3 {
     clear: both;
 }
+/* contacts section end */
 
 /* employees section start */
 
@@ -777,5 +778,6 @@ hr {
     flex-wrap: wrap;
     overflow: hidden;
 }
+/* contacts section end */
 
 }
